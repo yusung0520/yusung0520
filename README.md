@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/profile-header.svg" width="100%" alt="나유성 | Full-Stack Portfolio">
+  <img src="assets/profile-header.svg" width="100%" alt="나유성 (Na Yusung) | Full-Stack Portfolio">
 </p>
 
 # 나유성 | Full-Stack Developer
