@@ -17,6 +17,14 @@
 | **PetCheck**<br>팀 프로젝트, 백엔드 | 사료 라벨의 OCR 텍스트와 반려동물별 회피 성분을 비교합니다. 클라이언트가 일치한 수와 개별 판정을 바로 읽도록 분석 응답을 구조화했습니다. | [분석 응답](projects/petcheck.md) / [RAG 저장소](https://github.com/PetCheckTeam/Petcheck-RAG) |
 | **냉장고를 부탁해**<br>6인 팀, 팀장 및 백엔드 | 같은 이름의 식재료를 구매분별로 구분하도록 추천 요청에 식재료 ID를 담았습니다. 현재 날짜를 고정해 소비기한 당일과 만료 경계를 테스트했습니다. | [소비기한 테스트](https://github.com/amInspireCamp6th-miniProject/server/blob/develop/src/test/java/com/example/server/ingredient/domain/ExpirationPolicyTest.java) / [입력 검증](https://github.com/amInspireCamp6th-miniProject/server/blob/develop/src/test/java/com/example/server/recipe/dto/RecipeRecommendationRequestTest.java) |
 
+## Research papers
+
+| 논문 | 내가 맡은 일 | 연구 기록 |
+| --- | --- | --- |
+| **전이학습 기반 ResNet50을 활용한 피부질환 이미지 분류 및 분석 시스템 구현**<br>2026 한국통신학회 추계, 제1저자, 발표 예정 | 피부 이미지 3종을 분류하도록 ResNet50을 미세조정하고 웹에서 분류 결과를 확인할 수 있게 구현했습니다. 학습에 쓰지 않은 테스트 이미지 264장 중 257장을 정확히 분류했습니다(97.35%). | [학회 발표 예정 목록](https://conf.kics.or.kr/2026f/board/5463/4888#page=7)<br>학부논문 세션 20A-P-2 |
+| **재개발·재건축 구역 정보와 중개인 연계를 결합한 부동산 플랫폼 설계 및 구현**<br>2026 한국통신학회 하계, 제1저자 | 원시 구역 경계를 지도용 폴리곤으로 가공하고 구역명으로 정비사업 정보와 연결했습니다. 사용자가 구역을 선택하면 진행 단계와 해당 구역 중개사의 브리핑을 함께 확인하도록 구현했습니다. | [학회 프로그램](https://conf.kics.or.kr/2026s/program)<br>36A-P-35 / [구현 저장소](https://github.com/yusung0520/real-estate-redevelopment-platform) |
+| **사용자 물품 보호를 위한 블루투스 기반 실시간 거리 감지 및 경고 시스템**<br>2025 한국통신학회 추계, 제1저자 | Android 앱에서 여러 물품의 블루투스 신호 세기(RSSI)를 추적하고, 신호가 설정한 임계값 아래로 떨어지면 화면이 꺼져 있어도 진동과 푸시 알림으로 이탈을 알리도록 구현했습니다. | [학회 프로그램북](https://conf.kics.or.kr/2025f/downloadProgram?type=program)<br>24B-P-2 |
+
 ## About
 
 순천향대학교 의료IT공학과 4학년, CC Lab 학부연구생입니다. 연구실에서는 표정 분석 API를 독서 화면에 연동했고, 학과 부학회장으로는 ‘마음의 소통함’을 기획해 학생회 소통부와 건의 사항을 논의했습니다.
