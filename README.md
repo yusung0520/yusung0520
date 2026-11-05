@@ -1,10 +1,10 @@
 <p align="center">
-  <img src="assets/profile-header.svg" width="100%" alt="나유성 | Backend Portfolio">
+  <img src="assets/profile-header.svg" width="100%" alt="나유성 | Full-Stack Portfolio">
 </p>
 
-# 나유성 | Backend Developer
+# 나유성 | Full-Stack Developer
 
-서울 정비구역의 사업 이력을 연결하고, 여러 서버를 거치는 API 요청을 추적합니다. Spring Boot와 관계형 데이터베이스를 사용해 사용자의 질문에 필요한 데이터를 제공하는 일을 합니다.
+React 화면부터 Spring Boot API와 MySQL까지 연결하는 풀스택 개발자 나유성입니다. 서울 정비구역 지도에서는 구역을 클릭하면 현재 단계와 이전 인가 날짜가 한눈에 보이도록, 지도 화면과 조회 API를 직접 구현했습니다.
 
 [웹 포트폴리오 소스](docs/)　/　[시연 자료 추가 방법](docs/README.md)
 
@@ -12,10 +12,10 @@
 
 | 프로젝트 | 내가 맡은 일 | 구현 기록 |
 | --- | --- | --- |
-| **서울 정비구역 지도**<br>개인 프로젝트 | 중복된 구역명은 자동 연결을 보류하고, 매칭된 사업 이력을 14단계 지도 타임라인으로 제공합니다. | [설계와 API](https://github.com/yusung0520/real-estate-redevelopment-platform#주요-api) |
+| **서울 정비구역 지도**<br>개인 풀스택 프로젝트 | React에서 구역 경계를 그리고, 선택한 구역 ID로 Spring Boot 상세 API를 호출합니다. MySQL에서 읽은 이력은 14단계 타임라인에 날짜와 함께 표시합니다. | [지도 화면](https://github.com/yusung0520/real-estate-redevelopment-platform/blob/main/frontend/src/components/KakaoMap.jsx) / [설계와 API](https://github.com/yusung0520/real-estate-redevelopment-platform#주요-api) |
 | **Sporty**<br>팀 프로젝트, 인프라 | 7개 서비스의 Docker 이미지를 경량화했습니다. Gateway 이미지는 150.5MiB에서 111.5MiB로 줄었고, 매치 조회 요청을 세 서비스에 걸쳐 추적했습니다. | [요청 추적 PR](https://github.com/batontouch-sporty/backend/pull/81) / [시간대 검증 PR](https://github.com/batontouch-sporty/backend/pull/89) |
-| **PetCheck**<br>팀 프로젝트, 백엔드 | 사료 라벨의 OCR 텍스트와 반려동물별 회피 성분을 비교합니다. 클라이언트가 일치한 수와 개별 판정을 바로 읽도록 분석 응답을 구조화했습니다. | [분석 응답](projects/petcheck.md) / [RAG 저장소](https://github.com/PetCheckTeam/Petcheck-RAG) |
-| **냉장고를 부탁해**<br>6인 팀, 팀장 및 백엔드 | 같은 이름의 식재료를 구매분별로 구분하도록 추천 요청에 식재료 ID를 담았습니다. 현재 날짜를 고정해 소비기한 당일과 만료 경계를 테스트했습니다. | [소비기한 테스트](https://github.com/amInspireCamp6th-miniProject/server/blob/develop/src/test/java/com/example/server/ingredient/domain/ExpirationPolicyTest.java) / [입력 검증](https://github.com/amInspireCamp6th-miniProject/server/blob/develop/src/test/java/com/example/server/recipe/dto/RecipeRecommendationRequestTest.java) |
+| **PetCheck**<br>팀 프로젝트, 분석 API 및 RAG 연동 | 사료 라벨의 OCR 텍스트와 반려동물별 회피 성분을 비교합니다. 클라이언트가 일치한 수와 개별 판정을 바로 읽도록 분석 응답을 구조화했습니다. | [분석 응답](projects/petcheck.md) / [RAG 저장소](https://github.com/PetCheckTeam/Petcheck-RAG) |
+| **냉장고를 부탁해**<br>6인 팀, 팀장 및 레시피 API | 같은 이름의 식재료를 구매분별로 구분하도록 추천 요청에 식재료 ID를 담았습니다. 현재 날짜를 고정해 소비기한 당일과 만료 경계를 테스트했습니다. | [소비기한 테스트](https://github.com/amInspireCamp6th-miniProject/server/blob/develop/src/test/java/com/example/server/ingredient/domain/ExpirationPolicyTest.java) / [입력 검증](https://github.com/amInspireCamp6th-miniProject/server/blob/develop/src/test/java/com/example/server/recipe/dto/RecipeRecommendationRequestTest.java) |
 
 ## Research papers
 
@@ -27,14 +27,20 @@
 
 ## About
 
-순천향대학교 의료IT공학과 4학년, CC Lab 학부연구생입니다. 연구실에서는 표정 분석 API를 독서 화면에 연동했고, 학과 부학회장으로는 ‘마음의 소통함’을 기획해 학생회 소통부와 건의 사항을 논의했습니다.
+순천향대학교 의료IT공학과 4학년, CC Lab 학부연구생입니다. 연구실에서는 표정 분석 API의 결과를 독서 구간별 흥미도 변화로 시각화했습니다. 학과 부학회장으로는 ‘마음의 소통함’을 기획해 학생회 소통부와 건의 사항을 논의했습니다.
 
 | 교육 | 프로젝트에 연결한 경험 |
 | --- | --- |
-| LG CNS AM Inspire Camp | Java, Spring Boot, SQL을 활용한 기능 개발과 팀 서비스의 배포 검증 |
+| LG CNS AM Inspire Camp | React 화면과 API 연동 실습, Spring Boot 기능 개발, 팀 서비스 배포 검증 |
 | NAVER Cloud Academy 소버린 AI Literacy | NCP 환경, AI API 및 RAG 연동 실습 |
 
 ## 🛠 Tech Stack
+
+**Frontend**
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
 **Backend**
 
@@ -49,12 +55,6 @@
 ![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-
-**Frontend**
-
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
 
 **Tools & AI**
 
