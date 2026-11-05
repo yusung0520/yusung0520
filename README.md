@@ -26,8 +26,42 @@
 | LG CNS AM Inspire Camp | Java, Spring Boot, SQL을 활용한 기능 개발과 팀 서비스의 배포 검증 |
 | NAVER Cloud Academy 소버린 AI Literacy | NCP 환경, AI API 및 RAG 연동 실습 |
 
+## 🛠 Tech Stack
+
+**Backend**
+
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=springboot&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+
+**Database**
+
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![MariaDB](https://img.shields.io/badge/MariaDB-003545?style=flat-square&logo=mariadb&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+
+**Frontend**
+
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=flat-square&logo=javascript&logoColor=F7DF1E)
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+
+**Tools & AI**
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white)
+![Zipkin](https://img.shields.io/badge/Zipkin-4A4A4A?style=flat-square)
+
+RAG, CLOVA OCR, HyperCLOVA X, OpenAI API, Spring Data JPA
+
 <details>
-<summary><strong>연구실 프로젝트와 사용 기술</strong></summary>
+<summary><strong>연구실 프로젝트</strong></summary>
 
 | 연구 및 프로젝트 | 담당하거나 검증한 내용 |
 | --- | --- |
@@ -36,9 +70,5 @@
 | 피부질환 이미지 분류 | ResNet50 전이학습, Streamlit 분석 화면. 연구용 독립 테스트 데이터셋에서 분류 정확도 97.35% |
 | AI 기반 개인화 도서 추천 | 사용자 입력 화면, 추천 API 연동 및 결과 표시 |
 | HopeGrip 비대면 재활 서비스 | React 기반 재활 측정 데이터 시각화와 환자 및 의료진 화면 |
-
-**백엔드와 데이터**　Java, Spring Boot, Spring Data JPA, MySQL, MariaDB, PostgreSQL, Python, FastAPI, pgvector  
-**프론트엔드와 AI 연동**　React, JavaScript, Streamlit, CLOVA OCR, HyperCLOVA X, OpenAI API  
-**배포와 협업**　Docker, Kubernetes, GitHub, Linux, Postman, Zipkin
 
 </details>
