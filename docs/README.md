@@ -1,6 +1,6 @@
 # 웹 포트폴리오
 
-홈과 프로젝트 상세 3페이지는 정적 HTML, CSS, JavaScript로 구성됩니다. 이 폴더를 로컬 정적 서버에서 열거나 GitHub Pages의 게시 소스로 사용할 수 있습니다. 페이지 링크와 리소스 경로는 모두 이 폴더를 기준으로 연결됩니다.
+홈과 프로젝트 상세 4페이지는 정적 HTML, CSS, JavaScript로 구성됩니다. 이 폴더를 로컬 정적 서버에서 열거나 GitHub Pages의 게시 소스로 사용할 수 있습니다. 페이지 링크와 리소스 경로는 모두 이 폴더를 기준으로 연결됩니다.
 
 ## 시연 이미지 또는 영상 추가
 
@@ -13,7 +13,8 @@ redevelopment: { src: 'media/redevelopment.mp4', alt: '지도에서 구역을 �
 
 | 키 | 표시되는 곳 |
 | --- | --- |
-| `redevelopment` | 홈의 대표 화면 및 서울 정비구역 지도 상세 |
+| `redevelopment` | 서울 정비구역 지도 상세 |
+| `sporty` | Sporty 상세 |
 | `petcheck` | PetCheck 상세 |
 | `fridge` | 냉장고를 부탁해 상세 |
 

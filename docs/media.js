@@ -2,6 +2,7 @@
 // The empty entries intentionally make no network requests.
 const projectMedia = {
   redevelopment: null,
+  sporty: null,
   petcheck: null,
   fridge: null,
 };
