@@ -6,7 +6,7 @@
 
 React 화면부터 Spring Boot API와 MySQL까지 연결하는 풀스택 개발자 나유성입니다. 서울 정비구역 지도에서는 구역을 클릭하면 현재 단계와 이전 인가 날짜가 한눈에 보이도록, 지도 화면과 조회 API를 직접 구현했습니다.
 
-[포트폴리오 PDF](docs/Na_Yusung_Fullstack_Portfolio.pdf)　/　[웹 포트폴리오 소스](docs/)　/　[실제 실행 화면](projects/redevelopment-verification.md#실제-화면)
+[포트폴리오 PDF](docs/Na_Yusung_Fullstack_Portfolio.pdf)　/　[웹 포트폴리오 소스](docs/)　/　[실제 실행 화면](projects/redevelopment-verification.md#실제-화면)　/　[27초 시연 영상](https://raw.githubusercontent.com/yusung0520/yusung0520/main/docs/media/redevelopment-demo.mp4)
 
 ## Selected work
 
@@ -82,3 +82,4 @@ RAG, CLOVA OCR, HyperCLOVA X, OpenAI API, Spring Data JPA
 | HopeGrip 비대면 재활 서비스 | React 기반 재활 측정 데이터 시각화와 환자 및 의료진 화면 |
 
 </details>
+
