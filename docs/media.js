@@ -2,7 +2,6 @@
 // The empty entries intentionally make no network requests.
 const projectMedia = {
   redevelopment: { src: 'media/redevelopment-detail.webp', alt: '성수 제3구역 상세와 타임라인 상단' },
-  sporty: null,
   petcheck: null,
   fridge: null,
 };

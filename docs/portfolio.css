@@ -131,3 +131,25 @@ figcaption { color: var(--soft); font-size: .85rem; padding-top: 9px; }
   .brand { flex-shrink: 0; }
   .facts dd { display: block; margin-left: 0; }
 }
+
+/* Sporty: service introduction, team demos and personal delivery work. */
+.sporty-hero { align-items: center; grid-template-columns: 1fr 1.1fr; }
+.sporty-tagline { font-size: clamp(1.45rem,2.35vw,2.6rem); line-height: 1.35; letter-spacing: -.045em; margin: 20px 0; color: var(--white); font-weight: 650; }
+.sporty-hero-screen { margin: 0; }
+.sporty-hero-screen img { display: block; width: 100%; height: auto; border: 1px solid var(--line); }
+.sporty-page .facts { gap: 14px 42px; }
+.sporty-page .eyebrow, .sporty-page figcaption { font-size: .875rem; }
+.sporty-section { padding-block: clamp(32px,4vw,64px); border-bottom: 1px solid var(--line); }
+.sporty-features { display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 32px; }
+.sporty-features > div { border-top: 1px solid var(--line); padding-top: 18px; }
+.sporty-features h3 { margin: 0 0 10px; font-size: 1.2rem; line-height: 1.4; }
+.sporty-features p { margin: 0; color: var(--soft); }
+.sporty-video { aspect-ratio: 16/9; }
+.sporty-page .demo-footer p { max-width: 65ch; }
+.sporty-note { color: var(--soft); font-size: .875rem; }
+.sporty-trace { margin-top: 28px; }
+.sporty-page .screenshot figcaption { font-size: .875rem; }
+.poster.sporty-poster { aspect-ratio: 16/9; }
+.poster.sporty-poster img { object-fit: contain; }
+@media (max-width: 900px) { .sporty-hero { grid-template-columns: 1fr; gap: 28px; } }
+@media (max-width: 700px) { .sporty-features { grid-template-columns: 1fr; gap: 22px; } .sporty-page .links { align-items: flex-start; } }
