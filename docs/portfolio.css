@@ -103,3 +103,10 @@ figcaption { color: var(--soft); font-size: .85rem; padding-top: 9px; }
 .screenshot figcaption { display: flex; gap: 12px 28px; align-items: baseline; flex-wrap: wrap; font-size: .95rem; }
 .screenshot figcaption strong { color: var(--white); }
 @media (max-width: 700px) { .screens-heading { grid-template-columns: 1fr; gap: 12px; } }
+
+/* Text-only header for the redevelopment case study. */
+.case-title--text { display: block; max-width: 70rem; margin-top: clamp(28px,3vw,48px); }
+.case-title--text .eyebrow { margin: 0 0 14px; }
+.case-title--text h1 { font-size: clamp(2.35rem,4.5vw,4.8rem); line-height: 1.16; letter-spacing: -.055em; }
+.case-title--text .subtitle { max-width: 58rem; margin: 20px 0 0; font-size: clamp(1rem,1.2vw,1.2rem); }
+.case-title--text + .facts { margin-top: 28px; }
